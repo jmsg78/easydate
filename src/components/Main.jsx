@@ -15,7 +15,7 @@ const  Main = () => {
         <div className="col-6">
             <div className="row space">
                 <div className="col-8 text-center ">
-                    <h3>Agende su Cita</h3>
+                    <h3 className="font-weight-bold">Agende su Cita</h3>
                 </div>
                 <div className="col-4">
                 <FontAwesomeIcon icon={faHeart} size="3x" color="red"/>
@@ -27,7 +27,7 @@ const  Main = () => {
             <Form.Row>
             <Col>
             <Form.Group controlId="formInputSpeciality">
-                <Form.Label>Especialidad</Form.Label>
+                <Form.Label className="sizeLetters">Especialidad</Form.Label>
                 <Form.Control placeholder="" />
             </Form.Group>
             </Col>
@@ -35,22 +35,22 @@ const  Main = () => {
             <Form.Row>
                 <Col>
                 <Form.Group controlId="formInputCity">
-                    <Form.Label>Ubicación</Form.Label>
+                    <Form.Label className="sizeLetters">Ubicación</Form.Label>
                     <Form.Control placeholder="" />
                 </Form.Group>
                 </Col>
             </Form.Row>
             <Form.Row>
-                <Col>
+               
                 <Form.Group as={Col} controlId="formSelectClinic">
-                    <Form.Label>Centro de Atención</Form.Label>
+                    <Form.Label className="sizeLetters">Centro de Atención</Form.Label>
                     <Form.Control as="select">
                         <option value="0">Seleccione</option>
                         <option value="1">Centro Clinico del Country</option>
                         <option value="2">Centro Clinico Marly</option>
                     </Form.Control>
                 </Form.Group>
-                </Col>
+                
             </Form.Row>
             <Button variant="btn btn-lg btn-dark btn-block" type="submit">
                 Buscar
