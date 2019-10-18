@@ -1,0 +1,9 @@
+.containerUs {
+    width: 100%;
+    background-color: blue;
+}
+.us {
+    min-height:500px;
+    background-color: white;
+    margin-top:20px;
+}

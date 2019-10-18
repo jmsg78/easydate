@@ -1,0 +1,12 @@
+.containerFooter {
+    width: 100%;
+    background-color: black;
+    color:white;
+    min-height: 40px;
+    padding: 10px;
+}
+.row-footer {
+    min-height:200px;
+    background-color: #43425D;
+    margin-top:20px;
+}

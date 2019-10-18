@@ -1,0 +1,22 @@
+
+.containerSubMain {
+    width: 100%;
+    background-color: blue;
+}
+.subMain {
+    min-height: 250px;
+    background-color: #3579E6;
+    margin:0px;
+    
+}
+.h4-subMain {
+    padding-top:5px;
+    color:white;
+}
+
+.p-subMain {
+    padding: 10px 40px 40px 40px;
+    font-size: 10px;
+    font-style: italic;
+    color:white;
+}
