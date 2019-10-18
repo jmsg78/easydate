@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/Us.css';
+import pictureVideo from '../assets/images/video.png';
 
 
 const  Us = () => {
@@ -9,6 +10,7 @@ const  Us = () => {
             <div class="us">
                 <div class="col text-center">
                     <h1>Conócenos</h1>
+                    <img src={pictureVideo} alt="Video Us" />
                 </div>
             </div>
         </div>

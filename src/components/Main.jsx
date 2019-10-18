@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageMain from '../assets/images/medical.png';
+import ImageMain from '../assets/images/main.png';
 import { Form, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
